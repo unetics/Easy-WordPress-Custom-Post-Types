@@ -28,7 +28,7 @@ If I want to also use the built-in category and/or tag taxonomies that WordPress
 
     $snippet = new JW_Post_Type('Snippet', array(
        'taxonomies' => array('category', 'post_tag')
-    );
+    ));
 
 ### Custom Taxonomies
 
